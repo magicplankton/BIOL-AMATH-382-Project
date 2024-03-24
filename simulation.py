@@ -49,6 +49,5 @@ F = odeint(dFdt_original, F0, times) #run simulation
  
 plt.plot(times, F[:, 1])
 plt.show()
- 
-#print(F[:, 0])
+
 print(F.shape)
